@@ -8,11 +8,11 @@ create table employee(emp_no int primary key,emp_name varchar(20) not null,DOB d
 
 #(i)Add 5 rows in the employee and department tables
 #(ii)Display all the records from the above tables
-insert into department values(101,"Rasika","Mumbai");
-insert into department values(102,"Aiswarya","Kannur");
-insert into department values(103,"Devika","Kochi");
-insert into department values(104,"Nourin","Calicut");
-insert into department values(105,"Anila","Alappuzha");
+insert into department values(101,"A","first floor");
+insert into department values(102,"B","second floor");
+insert into department values(103,"C","third floor");
+insert into department values(104,"D","first floor");
+insert into department values(105,"E","second floor");
 select * from department;
 
 insert into employee values(1,"Raajitha",'1996-04-20',"Nadathattumal house",'2020-01-10',9785439910,101,"Manager",20000);
